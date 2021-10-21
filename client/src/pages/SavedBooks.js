@@ -12,7 +12,7 @@ const SavedBooks = () => {
   const [userData, setUserData] = useState({});
 
   // use this to determine if `useEffect()` hook needs to run again
-  const userData = data?.me || data?.userData || {};
+  const user = data?.me || data?.userData || {};
 
 
 
